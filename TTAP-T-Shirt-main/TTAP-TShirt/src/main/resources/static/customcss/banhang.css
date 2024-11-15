@@ -1,0 +1,90 @@
+.modal-xl {
+    max-width: 90%; /* Adjust the width as needed */
+    width: 90%;
+}
+
+.modal-body {
+    max-height: 70vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scroll if content is too long */
+}
+ /*Modal styling */
+.modal-soLuongSua {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.info-label {
+    font-weight: bold;
+    width: 150px; /* Đặt độ rộng cố định cho các nhãn */
+}
+.info-value {
+    flex: 1;
+    text-align: right; /* Căn chỉnh giá trị sang bên phải */
+    font-weight: bold;        }
+.info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-content {
+    margin-left: 280px; /* Khoảng cách bằng với chiều rộng sidebar */
+    padding: 20px; /* Tùy chỉnh khoảng cách bên trong nội dung */
+}
+
+
+.info-label {
+    font-weight: bold;
+    width: 150px; /* Đặt độ rộng cố định cho các nhãn */
+}
+.info-value {
+    flex: 1;
+    text-align: right; /* Căn chỉnh giá trị sang bên phải */
+    font-weight: bold;        }
+.info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-content {
+    margin-left: 280px; /* Khoảng cách bằng với chiều rộng sidebar */
+    padding: 20px; /* Tùy chỉnh khoảng cách bên trong nội dung */
+
+    .fixed-table {
+        max-height: 400px; /* Đặt chiều cao cố định cho bảng */
+        overflow-y: auto;  /* Thêm con lăn khi dữ liệu vượt quá chiều cao */
+    }
+
+}
